@@ -6,8 +6,8 @@
   "scripts": {
     "docs:dev": "npx vuepress dev docs",
     "docs:build": "node ./build/addComment.js &&  vuepress build docs  && node ./build/delComment.js",
-    "deploy": "gh-pages -d dist",
-    "deploy:build": "npm run docs:build && gh-pages -d dist"
+    "deploy:build": "npm run docs:build && gh-pages -d dist",
+    "deploy": "bash deploy.sh"
   },
   "author": "",
   "license": "ISC",
