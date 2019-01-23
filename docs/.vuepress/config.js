@@ -3,7 +3,7 @@ module.exports = {
   description: 'blog from Qi',
   dest: './dist',
   base: '/blog/',
-  repo: 'https://qishaoxuan.github.io/blog/',
+  repo: 'https://guobanghuai.github.io/blog/',
   head: [
     ['link', { rel: 'icon', href: `/images/favicon.png` }],
     ['meta', { name: 'theme-color', content: '#00adb5' }],
