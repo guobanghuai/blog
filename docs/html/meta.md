@@ -45,7 +45,7 @@
 
 ### 自动刷新并指向新页面。其中的1是指停留1秒钟后自动刷新到URL网址
 ```html
-<meta http-equiv="Refresh" content="1;URL=https://github.com/QiShaoXuan"/>
+<meta http-equiv="Refresh" content="1;URL=https://baidu.com"/>
 ```
 
 ### 如果网页过期，那么存盘的cookie将被删除
@@ -83,7 +83,7 @@
 
 ### 添加智能 App 广告条 Smart App Banner
 ```html
-<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=https://github.com/QiShaoXuan"/>
+<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=https://baidu.com"/>
 ```
 
 ### 设置苹果工具栏颜色
@@ -95,8 +95,6 @@
 
 ### 网页主题颜色
 目前只发现 chrome 的 app 顶部工具栏会根据该色值变色
-
-<a href="https://qishaoxuan.github.io/blog/">在移动端使用 chrome app 打开</a>
 
 ```html
 <meta name="msapplication-TileColor" content="#000"/>    

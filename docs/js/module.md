@@ -39,7 +39,7 @@ function bar(){}
 
 ```js
 const module1 = {
-  data:'https://qishaoxuan.github.io/blog/',
+  data:'https://guobanghuai.github.io/blog/',
   foo:function(){},
   bar:function(){}
 }
