@@ -606,25 +606,25 @@ export default {
     return {}
   },
   mounted() {
-    let body = document.querySelector(".gitalk-container")
+    // let body = document.querySelector(".gitalk-container")
 
-    let script = document.createElement("script")
-    script.src = "https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"
-    body.appendChild(script)
+    // let script = document.createElement("script")
+    // script.src = "https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"
+    // body.appendChild(script)
 
-    script.onload = () => {
-      const commentConfig = {
-        clientID: "44093646de89f404e5d1",
-        clientSecret: "a8c2343855a772fa30aec24474bd05e9b265528d",
-        repo: "blog",
-        owner: "QiShaoXuan",
-        admin: ["QiShaoXuan"],
-        id: location.pathname,
-        distractionFreeMode: false
-      }
-      const gitalk = new Gitalk(commentConfig)
-      gitalk.render("gitalk-container")
-    }
+    // script.onload = () => {
+    //   const commentConfig = {
+    //     clientID: "44093646de89f404e5d1",
+    //     clientSecret: "a8c2343855a772fa30aec24474bd05e9b265528d",
+    //     repo: "blog",
+    //     owner: "QiShaoXuan",
+    //     admin: ["QiShaoXuan"],
+    //     id: location.pathname,
+    //     distractionFreeMode: false
+    //   }
+    //   const gitalk = new Gitalk(commentConfig)
+    //   gitalk.render("gitalk-container")
+    // }
   }
 }
 </script>
