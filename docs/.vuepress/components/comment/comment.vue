@@ -614,11 +614,11 @@ export default {
 
     script.onload = () => {
       const commentConfig = {
-        clientID: "44093646de89f404e5d1",
-        clientSecret: "a8c2343855a772fa30aec24474bd05e9b265528d",
+        clientID: "34cdb5db99a42899b574",
+        clientSecret: "ac050415eeec9add7a4df51408596134ef967d6d",
         repo: "blog",
-        owner: "QiShaoXuan",
-        admin: ["QiShaoXuan"],
+        owner: "guobanghuai",
+        admin: ["guobanghuai"],
         id: location.pathname,
         distractionFreeMode: false
       }
