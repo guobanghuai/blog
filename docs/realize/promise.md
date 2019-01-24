@@ -1,4 +1,0 @@
-# Promise
-
-
-<<< ./realize/promise.ts
