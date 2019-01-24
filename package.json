@@ -7,7 +7,7 @@
     "docs:dev": "npx vuepress dev docs",
     "docs:build": "node ./build/addComment.js &&  vuepress build docs  && node ./build/delComment.js",
     "deploy:build": "npm run docs:build && gh-pages -d dist",
-    "deploy": "bash deploy.sh && bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "author": "",
   "license": "ISC",
