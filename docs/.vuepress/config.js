@@ -23,10 +23,10 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'css tricks', link: 'https://qishaoxuan.github.io/css_tricks/' },
-      { text: 'js tricks', link: 'https://qishaoxuan.github.io/js_tricks/' },
-      { text: 'about me', link: 'https://qishaoxuan.github.io/animate_resume/' },
-      { text: 'GitHub', link: 'https://github.com/QiShaoXuan/blog' },
+      // { text: 'css tricks', link: 'https://qishaoxuan.github.io/css_tricks/' },
+      // { text: 'js tricks', link: 'https://qishaoxuan.github.io/js_tricks/' },
+      // { text: 'about me', link: 'https://qishaoxuan.github.io/animate_resume/' },
+      // { text: 'GitHub', link: 'https://github.com/QiShaoXuan/blog' },
     ],
     sidebar: [
       {
