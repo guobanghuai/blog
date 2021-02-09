@@ -79,6 +79,15 @@ module.exports = {
         children:[
           '/leetcode/twoSum',
         ],
+      },
+      {
+        title:'其他',
+        collapsable:true,
+        children:[
+          '/other/性能优化',
+          '/other/gulp',
+          '/other/pixi',
+        ],
       }
     ]
   }
